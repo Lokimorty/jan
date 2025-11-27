@@ -6,12 +6,17 @@
   <developer_name>Menlo Research Pte. Ltd.</developer_name>
   <name>Jan</name>
   <icon type="stock">ai.jan.Jan</icon>
-  <summary>Local AI Assistant that runs 100% offline on your device</summary>
+  <summary>Chat with AI privately</summary>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#fff9e7</color>
+    <color type="primary" scheme_preference="dark">#333333</color>
+  </branding>
   <categories>
-  <category>Utility</category>
-  <category>Education</category>
-  <category>Chat</category>
-  <category>Dictionary</category>
+    <category>Utility</category>
+    <category>Education</category>
+    <category>Chat</category>
+    <category>Dictionary</category>
   </categories>
   <description>
     <p>
@@ -19,21 +24,25 @@
     </p>
     <p>Features:</p>
     <ul>
-      <li> Local AI Models: Download and run large language models like Llama, Gemma, and Qwen directly from Hugging Face. All models run locally on your device.</li>
-      <li>Cloud Integration: Connect to cloud providers such as OpenAI, Anthropic, Gemini, and Groq when needed. Easily switch between local and cloud models</li>
+      <li>Local AI Models: Download and run large language models like Llama, Gemma, and Qwen directly from Hugging Face. All models run locally on your device.</li>
+      <li>Cloud Integration: Connect to cloud providers such as OpenAI, Anthropic, Gemini, and Groq when needed. Easily switch between local and cloud models.</li>
       <li>Custom Assistants: Set up specialized AI assistants for different tasks, such as writing, summarizing, or coding. Customize their tone and behavior.</li>
-      <li> OpenAI-Compatible API: Jan includes a local API server (localhost:1337) that works with tools and plugins expecting OpenAI’s API format.</li>
+      <li>OpenAI-Compatible API: Jan includes a local API server (localhost:1337) that works with tools and plugins expecting OpenAI's API format.</li>
       <li>Model Context Protocol (MCP): Supports MCP to improve context handling and interactions across larger or more complex tasks.</li>
       <li>Privacy First: Jan runs fully offline by default. Your data never leaves your device unless you enable cloud connections.</li>
     </ul>
   </description>
 <launchable type="desktop-id">ai.jan.Jan.desktop</launchable>
 <screenshots>
-  <screenshot type="default">
-    <image>https://catalog.jan.ai/docs/jan-browser-mcp.gif</image>
-    <caption>Jan desktop interface demonstrating chat workflow</caption>
-  </screenshot>
-</screenshots>
+    <screenshot type="default">
+      <image>https://catalog.jan.ai/flatpak/jan-screenshot-1.png</image>
+      <caption>Chat with local AI models</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://catalog.jan.ai/flatpak/jan-screenshot-2.png</image>
+      <caption>Get responses from models</caption>
+    </screenshot>
+  </screenshots>
 
 <url type="homepage">https://jan.ai/</url>
 <url type="bugtracker">https://github.com/janhq/jan/issues</url>
